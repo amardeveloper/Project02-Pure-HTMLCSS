@@ -1,95 +1,90 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Red Rose", cursive;
 }
-:root{
-  --primary-clr: #FFC233;
-  --btn-clr: #FF505F;
+:root {
+  --primary-clr: #ffc233;
+  --btn-clr: #ff505f;
 }
 
-body{
-  background-color: rgb(58, 70, 88);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
+body {
+  background-image: url("./assets/pexels-maxyne-barcel-10402282 1.png");
   background-size: cover;
-  background-image: url("assets/bg-img.png");
 }
-
+.container {
+  background-color: rgba(18, 14, 67, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 /* ------------------------------ */
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
-.navbar{
-  
-  width: 100%;
+.navbar {
+  width: 100vw;
   height: 55px;
-  margin-top: 1em;
-
+  margin-top: 50px;
 }
-img[alt="logo"]{
+img[alt="logo"] {
   width: 10%;
   float: left;
-  margin-left: 3em;
+  margin-left: 50px;
 }
 
-.list{
+.list {
   list-style: none;
   float: left;
 
-  width: 26.5vw;
   color: var(--primary-clr);
-  margin: 1em 21em;
+  margin: 1em 18em;
 }
 
-.list-item{
-  float: left;
+.list-item {
+  display: inline;
   margin-left: 2em;
 }
 
-.button-small{
+.button-small {
   float: right;
   color: white;
   background-color: var(--btn-clr);
   border: none;
-  padding: .6em 1.5em;
+  padding: 0.6em 1.5em;
   margin-right: 4em;
-  margin-top: .7em;
-
+  margin-top: 0.7em;
 }
 
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
-.hero{
-
+.hero {
   width: 70vw;
   margin: 4em auto;
 }
 
-.hero-heading{
+.hero-heading {
   color: var(--primary-clr);
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
-  padding: .5em 0;
+  padding: 0.5em 0;
   margin: 0;
-  line-height: .9;
+  line-height: 0.9;
 }
-.button-large{
+.button-large {
   color: white;
   background-color: var(--btn-clr);
   border: none;
-  padding: .6em;
+  padding: 0.6em;
   width: 13em;
   font-size: 1.3rem;
   margin-left: 17em;
 }
-.bottom img{
+.bottom img {
   position: absolute;
   right: 60px;
   bottom: 20px;
   width: 100px;
 }
-
